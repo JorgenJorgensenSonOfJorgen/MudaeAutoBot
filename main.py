@@ -56,7 +56,5 @@ async def on_message(message):
                         await noMessageClaim(message,val.group())
 
 
-#tidyrice2 = Nzk2NDQwMjEyMzQzMzU3NDgw.YmMjKA.EDptsqQAQMNqK1eBUUqBHunjsSU
-#neo = 
-#johnwayne = OTYyODQxMjU1NTQzNDU1ODM0.YmOD4g.YefKx6-G6s7HNj37ZG1f92w1q_M
-client.run('OTcxNDkxMTQzMzg2ODA0MzA1.Gsp_gM.ptJAx-OYKvDlL_gSaLGuOq-KQhPuW6tKKblvQA')
+
+client.run('token')
