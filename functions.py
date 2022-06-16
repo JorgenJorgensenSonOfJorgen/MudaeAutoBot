@@ -52,9 +52,10 @@ async def roll(numRolls, message):
             break
 
     if g.abilities['claim'] and g.abilities['daily']: #we could get a daily off
+        await asyncio.sleep(2.5)
         dailyTimer.change_interval(seconds = 20 * 3600)
         dailyTimer.start()
-        await asyncio.sleep(2.5)
+        g.abilities['daily'] = False
         await message.channel.send('$daily')
         await asyncio.sleep(2.5)
         time += 5
